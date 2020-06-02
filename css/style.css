@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_style {
+    background-color: rgb(11, 157, 224)!important;
+}
+
+.nav_style a {
+    color: white;
+}
+
+
+/* first section */
+
+.main_header {
+    height: 450px;
+    width: 100%;
+}
+
+.rightside h1 {
+    font-size: 2.8rem;
+}
+
+.rightside span img {
+    animation: corona 3s linear infinite;
+}
+
+@keyframes corona {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* used animation */
+
+.leftside img {
+    animation: heartbeat 5s linear infinite;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(.75);
+    }
+    20% {
+        transform: scale(.1);
+    }
+    40% {
+        transform: scale(.75);
+    }
+    60% {
+        transform: scale(.1);
+    }
+    80% {
+        transform: scale(.75);
+    }
+    100% {
+        transform: scale(.75);
+    }
+}
+
+
+/*---End  first section------ */
+
+
+/*---start  second section------ */
+
+.corona_update {
+    margin: 0 0 30px 0;
+}
+
+.corona_update h3 {
+    color: tomato;
+}
+
+.corona_update h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/*---End  second section------ */
+
+
+/* about section */
+
+.sub_section {
+    background-color: #fbfafd;
+    /* background-color: rgb(40, 158, 212); */
+}
+
+
+/* End about section */
+
+
+/*------- top cursor-------- */
+
+#myBTN {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(66, 90, 226);
+    color: rgb(221, 35, 35);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#myBTN {
+    background: yellow;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    text-align: justify;
+}
